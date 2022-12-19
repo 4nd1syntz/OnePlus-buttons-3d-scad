@@ -1,4 +1,4 @@
-/*OnePlus1+
+/*OnePlus2
 Lauter leiser taster für menschen die Aufgrund des mießen designs die tasten verlohren haben.
 1.den Druck Trocken zusammen setzen und ins smartphone einsetzen um zu kucken obs passt. gegebenfalls nacharbeiten.
 
@@ -49,11 +49,11 @@ cube([1.34, 9, 0.8]); }
 translate([-5.67, 14.5,0]) {
 cube([1.34, 7, 0.8]); }}
 //nut
-translate([-5.3, 0,0]) {
-cube([0.6, 23, 0.6]); }
+translate([-5.35, 0,0]) {
+cube([0.7, 23, 0.8]); }
 }
 //Drückbolzen
-translate([-5, 4.5, 1.5]){
-cylinder(0.2, r = 0.5, center=false);}
-translate([-5, 18.5, 1.5]){
-cylinder(0.2, r = 0.5, center=false);}
+translate([-5, 5.2, 1.5]){
+cylinder(0.3, r = 0.5, center=false);}
+translate([-5, 17.9, 1.5]){
+cylinder(0.3, r = 0.5, center=false);}
